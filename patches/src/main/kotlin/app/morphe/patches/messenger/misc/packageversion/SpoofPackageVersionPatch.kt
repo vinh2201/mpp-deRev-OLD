@@ -10,7 +10,7 @@ val spoofPackageVersionPatch = resourcePatch(
     name = "Spoof package version",
     description = "Sets a very high version code so the Play Store treats the app as already up " +
         "to date and never offers an update.",
-    default = false,
+    use = false,
 ) {
     compatibleWith("com.facebook.orca")
 
